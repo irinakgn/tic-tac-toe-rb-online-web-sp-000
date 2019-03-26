@@ -106,12 +106,13 @@ def turn(board)
   display_board(board)
 end
 
-def play(board)
-  x = 0
 
-  while x < 9
-    board[x] = 'X'
-    x += 1
-  end
+def gets()
+
+end
+def play(board)
+
+
+
   puts board
 end
