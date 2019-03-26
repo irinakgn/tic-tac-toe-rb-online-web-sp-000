@@ -93,6 +93,11 @@ def current_player(board)
   turn_count(board) % 2 == 0 ? 'X' : 'O'
 end
 
+
+until the game is over
+  take turns
+end
+ 
 def turn(board)
   index = 0
   loop  do
