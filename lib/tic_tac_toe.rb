@@ -92,11 +92,6 @@ end
 def current_player(board)
   turn_count(board) % 2 == 0 ? 'X' : 'O'
 end
-
-
-until the game is over
-  take turns
-end
  
 def turn(board)
   index = 0
@@ -112,19 +107,25 @@ def turn(board)
 end
 
 
-def gets()
-
-end
 
 def play(board)
-  index = 0
-  loop  do
-    puts "Please enter 1-9:"
-    input = gets.chomp
-    index = input_to_index(input)
-    break if index > -1
-  end
-  valid_move?(board, index)
-  move(board, index, 'X')
-  display_board(board)
+
+
+
+  until over?(board)
+  take turns
+end
+
+ 
+
+ 
+if the game was won
+  congratulate the winner
+else if the game was a draw
+  tell the players it has been a draw
+end
+
+
+
+  
 end
