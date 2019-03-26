@@ -95,7 +95,7 @@ end
 
 
 def turn(board)
-@currVar = "X"
+  @currVar = "X"
   index = 0
   loop  do
     puts "Please enter 1-9:"
