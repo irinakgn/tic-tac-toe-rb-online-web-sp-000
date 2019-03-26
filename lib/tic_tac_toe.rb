@@ -93,7 +93,9 @@ def current_player(board)
   turn_count(board) % 2 == 0 ? 'X' : 'O'
 end
 
+
 def turn(board)
+@currVar = "X"
   index = 0
   loop  do
     puts "Please enter 1-9:"
@@ -102,7 +104,7 @@ def turn(board)
     break if index > -1
   end
   valid_move?(board, index)
-  move(board, index, 'X')
+  move(board, index, index  )
   display_board(board)
 end
 
