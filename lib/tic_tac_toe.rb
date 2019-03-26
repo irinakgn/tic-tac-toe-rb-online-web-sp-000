@@ -110,9 +110,7 @@ end
 def gets()
 
 end
+
 def play(board)
 
-
-
-  puts board
 end
