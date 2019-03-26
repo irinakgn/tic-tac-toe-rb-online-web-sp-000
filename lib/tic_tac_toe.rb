@@ -104,7 +104,8 @@ def turn(board)
     break if index > -1
   end
   valid_move?(board, index)
-  move(board, index, index  )
+  move(board, index, index currVar )
+  currVar = currVar == 'X' ? 'O' : 'X'
   display_board(board)
 end
 
