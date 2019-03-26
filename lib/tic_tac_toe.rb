@@ -115,7 +115,7 @@ def play(board)
   end
 
   if won?(board)
-   puts "fuck you!"
+   puts board
   elsif draw?(board)
     puts "loser!"
   end
