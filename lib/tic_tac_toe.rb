@@ -113,8 +113,8 @@ def play(board)
 
 
   until over?(board)
-  take turns
-end
+   turn(board)
+  end
 
 
 
