@@ -112,5 +112,14 @@ def gets()
 end
 
 def play(board)
+  index = 0
+  loop  do
+    puts "Please enter 1-9:"
     input = gets.chomp
+    index = input_to_index(input)
+    break if index > -1
+  end
+  valid_move?(board, index)
+  move(board, index, 'X')
+  display_board(board)
 end
