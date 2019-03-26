@@ -92,7 +92,7 @@ end
 def current_player(board)
   turn_count(board) % 2 == 0 ? 'X' : 'O'
 end
- 
+
 def turn(board)
   index = 0
   loop  do
@@ -116,9 +116,9 @@ def play(board)
   take turns
 end
 
- 
 
- 
+
+
 if the game was won
   congratulate the winner
 else if the game was a draw
@@ -127,5 +127,5 @@ end
 
 
 
-  
+
 end
