@@ -110,22 +110,14 @@ end
 
 def play(board)
 
-
-
   until over?(board)
    turn(board)
   end
 
-
-
-
-if the game was won
-  congratulate the winner
-else if the game was a draw
-  tell the players it has been a draw
-end
-
-
-
+  if won?(board)
+   puts "fuck you!"
+ else if draw?(board)
+    tell the players it has been a draw
+  end
 
 end
