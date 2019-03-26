@@ -112,5 +112,5 @@ def gets()
 end
 
 def play(board)
-
+    input = gets.chomp
 end
