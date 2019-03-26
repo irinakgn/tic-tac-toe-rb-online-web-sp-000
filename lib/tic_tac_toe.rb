@@ -111,7 +111,7 @@ def play(board)
 
   while x < 9
     board[x] = 'X'
-    x +=1
+    x += 1
   end
   puts board
 end
