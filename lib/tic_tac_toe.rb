@@ -105,6 +105,7 @@ def turn(board)
   end
   valid_move?(board, index)
   move(board, index, @currVar )
+  puts 'wtfffffffffffffffffffffffffffffffffffffffffffffffffff' + @currVar
   @currVar = @currVar == 'X' ? 'O' : 'X'
   display_board(board)
 end
